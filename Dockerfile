@@ -5,7 +5,8 @@ RUN yum install -y python2 python38 \
                    make cmake \
                    git \
                    openssh-clients \
-                   which && \
+                   which \
+                    unzip && \
     yum install -y ansible && \
     yum clean all
 
