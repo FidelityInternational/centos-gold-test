@@ -14,3 +14,5 @@ RUN yum install -y python2 python38 \
 
 RUN alternatives --set python /usr/bin/python2
 
+RUN pip2 install pexpect
+
